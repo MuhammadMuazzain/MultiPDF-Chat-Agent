@@ -86,9 +86,9 @@ def user_input(user_question):
 
 def main():
     st.set_page_config("Multi PDF Chatbot", page_icon = ":scroll:")
-    st.header("Multi-PDF's 📚 - Chat Agent 🤖 ")
+    st.header("Multi-PDF's - Chat Agent ")
 
-    user_question = st.text_input("Ask a Question from the PDF Files uploaded .. ✍️📝")
+    user_question = st.text_input("Ask a Question from the PDF Files uploaded ..")
 
     if user_question:
         user_input(user_question)
@@ -127,5 +127,9 @@ def get_text_chunks(text):
     chunks = text_splitter.split_text(text)
     return chunks
 
+def get_text_chunks(text):
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=50000, chunk_overlap=1000)
+    chunks = text_splitter.split_text(text)
+    return chunks
 if __name__ == "__main__":
     main()

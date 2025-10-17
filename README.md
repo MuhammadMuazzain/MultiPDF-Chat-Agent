@@ -1,18 +1,18 @@
-# Multi-PDF-s 📚ChatApp AI Agent 🤖
+# Multi-PDF-s ChatApp AI Agent 
 
-Meet MultiPDF Chat AI App! 🚀 Chat seamlessly with Multiple PDFs using Langchain, Google Gemini Pro &amp; FAISS Vector DB with Seamless Streamlit Deployment. Get instant, Accurate responses from Awesome Google Gemini OpenSource language Model. 📚💬 Transform your PDF experience now! 🔥✨
+Meet MultiPDF Chat AI App!Chat seamlessly with Multiple PDFs using Langchain, Google Gemini Pro &amp; FAISS Vector DB with Seamless Streamlit Deployment. Get instant, Accurate responses from Awesome Google Gemini OpenSource language Model. Transform your PDF experience now!
 
-## 📝 Description
+## Description
 The Multi-PDF's Chat Agent is a Streamlit-based web application designed to facilitate interactive conversations with a chatbot. The app allows users to upload multiple PDF documents, extract text information from them, and train a chatbot using this extracted content. Users can then engage in real-time conversations with the chatbot.
 
-## 📢Demo App with Streamlit Cloud (Visualize only)
+## Demo App with Streamlit Cloud (Visualize only)
 
 [Launch App On Streamlit](https://multi-pdfschatappai-agent.streamlit.app/)
 
-## 💻 Demo:
+## Demo:
 ![Demo 1: Chatbot Output](img/LLMframework.jpg)
 
-## 🎯 How It Works:
+## How It Works:
 ------------
 
 ![MultiPDF Chat App Diagram](img/Architecture.jpg)
@@ -32,7 +32,7 @@ The application follows these steps to provide responses to your questions:
 ![Demo 2: Chatbot Output](img/LLMApp.jpg)
 
 --- 
-## 🎯 Key Features
+## Key Features
 
 - **Adaptive Chunking**: Our Sliding Window Chunking technique dynamically adjusts window size and position for RAG, balancing fine-grained and coarse-grained data access based on data complexity and context.
 
@@ -46,7 +46,7 @@ The application follows these steps to provide responses to your questions:
 ![Demo 3: Chatbot Output](img/LLMAgents.jpg)
 
 
-## 🌟Requirements
+## Requirements
 
 - **Streamlit** : A Python library for building web applications with interactive elements.
 - **google-generativeai** : It is a package that provides generative AI capabilities for chatbots and virtual agents. It can be used in a variety of applications such as content generation, dialogue agents, summarization and classification systems and more.
@@ -59,7 +59,7 @@ The application follows these steps to provide responses to your questions:
 ![Demo 4: Chatbot Output](img/CALMOutput.jpg)
 ---
 
-## ▶️Installation
+## Installation
 
 Clone the repository:
 
@@ -78,7 +78,7 @@ Run the Streamlit app:
 `streamlit run app.py`
 
 ---
-## 💡Usage
+## Usage
 
 To use the Multi-PDF-s 📚ChatApp AI Agent 🤖, U can have glimpse of look by clicking on this link : [Launch App On Streamlit](https://multi-pdfschatappai-agent.streamlit.app/). To run app, fork app and follow the below steps to start using it. Use the sidebar to upload PDF files and train the chatbot. Once trained, you can have conversations with the chatbot by entering questions in the text input field.
 
@@ -98,7 +98,7 @@ In case You want to run & implement project on your system then follow these ste
 The application will use conversational AI to provide responses based on the content of the uploaded documents. The responses will be displayed in the chat interface.
 
 ---
-## ©️ License 🪪 
+## ©️ License 
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
