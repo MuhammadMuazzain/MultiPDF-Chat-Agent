@@ -127,7 +127,11 @@ def main():
         unsafe_allow_html=True
     )
 
+
 def get_text_chunks(text):
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=50000, chunk_overlap=1000)
     chunks = text_splitter.split_text(text)
     return chunks
+
+if __name__ == "__main__":
+    main()
