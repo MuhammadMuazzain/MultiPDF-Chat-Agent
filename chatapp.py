@@ -151,3 +151,7 @@ def get_text_chunks(text):
     return chunks
 if __name__ == "__main__":
     main()
+
+
+if __name__ == "__main__":
+    main()
