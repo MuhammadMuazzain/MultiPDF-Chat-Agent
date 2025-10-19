@@ -103,3 +103,9 @@ The application will use conversational AI to provide responses based on the con
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
+
+## ©️ License 
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
