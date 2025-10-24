@@ -202,13 +202,6 @@ def get_text_chunks(text):
     chunks = text_splitter.split_text(text)
     return chunks
 
-def get_text_chunks(text):
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=50000, chunk_overlap=1000)
-    chunks = text_splitter.split_text(text)
-    return chunks
-
-
-
 
 
 # how do i move the cursor from code to terminal using keyboeard
